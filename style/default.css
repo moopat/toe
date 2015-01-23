@@ -1,0 +1,195 @@
+body {
+    font-family: 'Droid Sans', sans-serif;
+    margin: 0px;
+}
+
+#login {
+    width: 450px;
+    margin: 200px auto;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+}
+
+#header {
+    height: 70px;
+    background-color: #5ac105;
+    margin-bottom: 5px;
+}
+
+#header img {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+h1 {
+    background-color: #5ac105;
+    color: white;
+    margin: 0px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding: 10px;
+    text-align: left;
+}
+
+#login #header {
+    margin: -20px;
+    margin-bottom: 5px;
+}
+
+#login h1 {
+    text-align: center;
+}
+
+#login input {
+    font-family: 'Droid Sans', sans-serif;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+#content {
+    margin: 10px;
+}
+
+table {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 40px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+.input-button {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 22px;
+    color: white;
+    background-color: #5ac105;
+    border: 1px solid #3f9905;
+}
+
+.input-button:hover {
+    background-color: #60e905;
+}
+
+td, th {
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.success {
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: rgb(175, 225, 136);
+}
+
+.error {
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: rgb(225, 123, 123);
+}
+
+#quiz {
+    margin: 20px auto;
+    width: 500px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.question {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.answer {
+    display: block;
+    padding: 8px;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+.answer:hover {
+    color: white;
+    background-color: #5ac105;
+}
+
+.answer-correct {
+    padding: 8px;
+    font-size: 20px;
+    background-color: rgb(175, 225, 136);
+}
+
+.answer-wrong {
+    padding: 8px;
+    font-size: 20px;
+    background-color: rgb(225, 123, 123);
+}
+
+@media (max-width: 480px){
+    #quiz {
+        margin: 10px 8px;
+        width: auto;
+    }
+
+    .question {
+        font-size: 28px;
+    }
+
+    .answer {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .answer-correct, .answer-wrong {
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    #header {
+        height: 60px;
+        background-color: #5ac105;
+        margin-bottom: 5px;
+    }
+
+    #header img {
+        display: block;
+        float: left;
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+
+    h1 {
+        background-color: #5ac105;
+        color: white;
+        margin: 0px;
+        height: 40px;
+        line-height: 40px;
+        float: left;
+        padding: 10px;
+        text-align: left;
+    }
+
+}
