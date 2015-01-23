@@ -46,7 +46,7 @@ shuffle($answers);
             } else {
                 $qid = mysqli_real_escape_string($db, $_GET['q']);
                 $aq = "SELECT word, explanation FROM vocab WHERE vocabid = '$qid'";
-                $ar = mysqli_query($db, $query);
+                $ar = mysqli_query($db, $aq);
                 while($arr = mysqli_fetch_assoc($ar)){
                     echo '<div class="answer-wrong">Falsch! Die richtige Antwort auf "<i>'.strip_tags(stripslashes($arr['word'])).'</i>" wäre "<i>'.strip_tags(stripslashes($arr['explanation'])).'</i>" gewesen.</div>';
                 }
